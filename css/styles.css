@@ -66,3 +66,68 @@ a{
     font-size: 1.5rem;
 }
 }
+/* badges */
+.badges{
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding : 0.5rem 1rem;
+    white-space: nowrap;
+}
+.badges--primary{
+    background: var(--color-primary);
+    color: #fff
+}
+.badges--secondary{
+    background:var(--color-secondary) ;
+    color: #fff;
+
+}
+@media screen and (min-width:1024px){
+.badges{
+    font-size: 1.5rem;
+}
+.badges--primary{
+    font-size: 1.2rem;
+}
+}
+/*List*/
+.List{
+    padding: 0;
+    color: var(--color-headings);
+}
+.inline--list .list--item{
+    display: inline-block;
+}
+.list--tick {
+    list-style-image: url(../images/tick.svg);
+   padding-left: 3rem;
+}
+.list--tick .list--item{
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+}
+.icon{
+    widows: 40px;
+    height:40px;
+    fill: var(--color-headings);
+}
+.svg-container{
+    background:#f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border-radius: 30%;
+    background-color: var(--color-headings);
+    color: white;
+    outline: 0;
+    margin-left: 2rem;
+}
+.btn--primary{
+    padding:2rem,1.5rem;
+}
